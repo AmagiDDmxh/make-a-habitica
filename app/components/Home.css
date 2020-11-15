@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  height: 100vh;
+}
+
+.container .login {
+  display: flex;
+  flex-direction: column;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
